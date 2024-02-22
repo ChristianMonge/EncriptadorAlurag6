@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="">
+        <img src="Recurso/Logo.png" alt="Logo alura">
+    </header>
+
+    <main class="main">
+        <section class="formularioPrincipal">
+
+            <textarea class="msjTexto" placeholder="Ingrese el texto aqui"></textarea>
+
+            <label class="mensajeRestriccion">&excl; Solo letras minúsculas y sin acentos.</label>
+            <div class="contenedorBotones">
+                <button class="btnEncriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <div class="imgtextarea">
+            <textarea class="msjResultado" readonly>               
+            </textarea>
+            <img id="imgMuneco" src="Recurso/Muñeco.png" alt="imagen de no encontrado">
+            <img id="imgTexto" class="imgtexto" src="Recurso/Frame 5.png" alt="Ningún mensaje fue encontrado, ingresa el texto que desees encriptar o Desencriptar">
+            <button class="btnCopiar">Copiar</button>
+        </div>
+        
+    </main>
+    
+
+       <footer>
+        <p id="copyright">&copy Copyright ChristianMonge 2023</p>
+       </footer>
+       <script src="app2.js"></script>
+</body>
+</html>

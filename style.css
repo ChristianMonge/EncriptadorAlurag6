@@ -1,0 +1,120 @@
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+}
+
+.formularioPrincipal {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.msjTexto {
+    color: #0A3871;
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-size: 30px;
+
+}
+
+.msjTexto:focus {
+    outline: none;
+}
+
+.msjResultado:focus {
+    outline: none;
+}
+
+.contenedorBotones {
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.mensajeRestriccion {
+    font-size: 18px;
+
+}
+
+.btnEncriptar {
+    width: 350px;
+    height: 60px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: #ffff;
+    font-size: large;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.btnDesencriptar {
+    width: 350px;
+    height: 60px;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: large;
+    align-self: flex-end;
+}
+
+.imgtextarea {
+    position: relative;
+    width: 300px;
+}
+
+.imgtextarea textarea {
+    height: 740px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0.5px 0.5px 9px 0.5px #000000;
+    font-size: 30px;
+    padding: 7px 7px 7px 7px;
+}
+
+.imgtextarea img {
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    width: 300px;
+    /* Ajusta según el tamaño de tu imagen */
+    height: auto;
+}
+
+.imgtextarea .imgtexto {
+    position: absolute;
+    left: 70px;
+    top: 430px;
+    width: 300px;
+    height: auto;
+
+}
+.btnCopiar {
+    width: 350px;
+    height: 60px;
+    background-color: rgb(67, 194, 12);
+    border-radius: 24px;
+    color: white;
+    font-size: large;
+   margin-left: 35px;
+}
+
+footer {
+    margin: 50px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+}
